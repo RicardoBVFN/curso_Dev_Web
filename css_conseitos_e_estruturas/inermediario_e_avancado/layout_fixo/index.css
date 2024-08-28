@@ -1,0 +1,49 @@
+.layout{
+    width: fit-content;
+    margin: auto;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 50px;
+    padding: 30px 0px;
+    background-color: rgb(165, 164, 164);
+}
+.itemMenor{
+    float: left;
+    background-color: rgb(233, 232, 232);
+    width: 150px;
+    padding: 10px 0px;
+    
+}
+
+.barraDeNavegacao{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+.linkNavegação{
+    text-decoration: none;
+}
+
+.itemMaior{
+    float: left;
+    width: 300px;
+    text-align: start;
+    padding: 0px 0px 10px 10px;
+}
+
+.textoMenor{
+    padding: 0px 10px 0px 10px;
+}
+
+.clear{
+    clear: both;
+}
+
+.rodape{
+    background-color: rgb(165, 164, 164);
+    text-align: center;
+}

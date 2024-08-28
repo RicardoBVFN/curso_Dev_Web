@@ -1,0 +1,41 @@
+.cont1{
+    background-color: aqua;
+    border: 5px solid black;
+    border-radius: 15px;
+    width: 150px;
+    height: fit-content;
+    padding: 5px;
+}
+
+.cont2{
+    background-color: black;
+    color: red;
+    border: 5px solid green;
+    border-radius: 15px;
+    width: 150px;
+    height: fit-content;
+    padding: 5px;
+    float: inline-end;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.planoDeFundo{
+    background-color: blueviolet;
+    border: 5px solid yellow;
+}
+
+.clear{
+    clear: both;
+}
+
+.teste3{
+    border: 3px solid black;
+}
+
+.coeteudoTeste3{
+    float: right;
+}

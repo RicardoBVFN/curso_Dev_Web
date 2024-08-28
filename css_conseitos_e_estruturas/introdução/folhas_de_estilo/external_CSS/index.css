@@ -1,0 +1,11 @@
+p{
+    text-align: center;
+    color: cadetblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background-color: black;
+    border: 5px solid grey;
+    border-radius: 5px;
+}

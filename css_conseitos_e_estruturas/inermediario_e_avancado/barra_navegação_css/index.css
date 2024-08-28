@@ -1,0 +1,63 @@
+.navBar{
+    border: 1px solid black;
+    width: fit-content;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(255, 251, 0);
+}
+
+.navLink{
+    text-decoration: none;
+    color: black;
+    display: block;
+    width: 200px;
+    padding: 10px 5px;
+}
+
+.navLink:visited{
+    color: black;
+}
+
+.navLink:hover, .inPage a{
+    background-color: rgb(233, 134, 5);
+    color: white;
+}
+
+ul{
+    float: left;
+}
+
+.barraHorizontal{
+    list-style-type: none;
+    padding: 0px;
+    margin-left: 100px;
+    margin-top: 80px;
+}
+
+.itemHorizontal{
+    float: left;
+}
+
+.linkHorizontal{
+    display: block;
+    padding: 10px 40px;
+    text-decoration: none;
+    background-color: rgb(36, 36, 223);
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.linkHorizontal:hover{
+    background-color: aqua;
+    color: black;
+}
+
+.atualHorizontal{
+    display: block;
+    text-decoration: none;
+    padding: 10px 40px;
+    background-color: aqua;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+}

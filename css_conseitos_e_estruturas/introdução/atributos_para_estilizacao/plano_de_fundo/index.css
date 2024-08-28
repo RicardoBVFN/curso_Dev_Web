@@ -1,0 +1,45 @@
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+}
+
+p{
+    font-size: 18px;
+}
+
+.testeCor{
+    color: antiquewhite;
+    padding-bottom: 250px;
+    padding-top: 250px;
+}
+
+.testeImagem{
+    background-image: url('tesao.jpg');
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+    background-position: center top;
+    background-attachment: fixed;
+}
+
+.conteudoTexto{
+    color: antiquewhite;
+}
+
+li{
+    padding-top: 5px;
+}
+
+body{
+    background-color: black;
+}
+
+.explicação{
+    background-color: antiquewhite;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 1px;
+}
+
+.lorem{
+    padding-top: 25px;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulários em html</title>
+</head>
+<body>
+    <p>Formulários servem para realizar a coleta de dados para um posterior armazenamento ou processamento pelo servidor do site. São delimitados pela tag &lt;form&gt;.</p>
+    <p>Existem ainda diversos tipos de imputs que podem ser ralisados em um formulário, tais como:</p>
+
+    <ul>
+
+        <li>
+            &lt;input&gt;: comenado responsável por criar um espaço para captação dos dados de entrada (números, textos, etc).
+        </li>
+        <li>
+            &lt;label&gt;: define um rótulo para os elementos do seu formulário.
+        </li>
+        <li>
+            &lt;select&gt;: cria uma lista suspensa de elementos pre definidos que o usuário deve escolher.
+        </li>
+        <li>
+            &lt;textarea&gt;: define um espaço para entrada de um texto com múltiplos caracteres.
+        </li>
+        <li>
+            &lt;button&gt;: cria um botão clicável que pode ser integrado com outros recursos.
+        </li>
+        <li>
+            &lt;fieldset&gt;: agrupa dados relacionados dentro de um formulário.
+        </li>
+        <li>
+            &lt;legend&gt;: define um texto como legenda de algum elemento "fieldset".
+        </li>
+        <li>
+            &lt;datalist&gt;: define uma série de opções pré definidas de input para o usuário escolher.
+        </li>
+        <li>
+            &lt;output&gt;: representa o output do servidor de um processamento de dados.
+        </li>
+        <li>
+            &lt;option&gt;: define uma opção em uma lista suspensa. 
+        </li>
+        <li>
+            &lt;optgroup&gt;: define um grupo de opções em uma lista suspensa.
+        </li>
+    </ul>
+
+
+    <hr>
+
+    <h2>teste de formulário</h2>
+    <form action="get">
+        <label for="userName">nome de usuário:</label>
+        <input type="text" name="userName">
+        <br>
+        <label for="userPassword">senha:</label>
+        <input type="password" name="userPassword">
+        <br>
+        <label for="inputSexo">digite o seu sexo:</label>
+        <input type="radio" name="sexo" value="M">masculino
+        <input type="radio" name="sexo" value="F">feminino
+        <br>
+        <label for="interesses">seleciona seus interesses:</label>
+        <input type="checkbox" name="interesses">livros
+        <input type="checkbox" name="interesses">jogos online
+        <input type="checkbox" name="interesses">programação
+        <input type="checkbox" name="interesses">dominó
+        <br>
+        <label for="estado">selecione o seu estado:</label>
+        <select name="etado" id="idEstado">
+            <option value="PE">PERNAMBUCO</option>
+            <option value="CE">CEARÁ</option>
+            <option value="RN">RIO GRANDE DO NORTE</option>
+            <option value="SE">SERGIPE</option>
+            <option value="BA">BAHIA</option>
+            <option value="PB">PARAÍBA</option>
+            <option value="AL">ALAGOAS</option>
+            <option value="PI">PIAUÍ</option>
+            <option value="MA">MARANHÃO</option>
+        </select>
+        <br>
+        <label for="detalhes">detalhamento:</label>
+        <br>
+        <textarea name="detalhes" id="idDetalhes"></textarea>
+        <br>
+        <button type="submit">enviar</button>
+    </form>
+</body>
+</html>

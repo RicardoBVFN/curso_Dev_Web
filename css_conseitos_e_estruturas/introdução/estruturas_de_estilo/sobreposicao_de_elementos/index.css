@@ -1,0 +1,47 @@
+.explanação{
+    text-align: center;
+    float: inline-end;
+}
+
+.testes{
+    float: inline-end;
+}
+
+.teste1{
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    background-color: brown;
+    width: 200px;
+    height: 200px;
+    z-index: 2;
+}
+
+.teste1:hover{
+    background-color: black;
+    color: white;
+}
+
+.teste2{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+    z-index: 1;
+}
+
+.teste3{
+    position: absolute;
+    top: 250px;
+    left: 150px;
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    z-index: 1;
+}
+
+.clear{
+    clear: both;
+}
