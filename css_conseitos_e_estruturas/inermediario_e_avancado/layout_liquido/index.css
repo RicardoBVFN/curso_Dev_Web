@@ -1,7 +1,7 @@
 .conteiner{
     margin: 0 auto;
     width: 80%;
-    min-width: 800px;
+    min-width: 700px;
     background-color: #011126;
 }
 
@@ -75,4 +75,17 @@
     flex-wrap: nowrap;
     justify-content: space-evenly;
     margin: 10px 0px;
+}
+
+.imagem_paisagem{
+    width: 85%;
+}
+
+.imagem_whisky{
+    width: 70%;
+}
+
+.conteinerCenter{
+    display: flex;
+    justify-content: center;
 }
