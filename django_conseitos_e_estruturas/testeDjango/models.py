@@ -24,4 +24,16 @@ class anotacoes(models.Model):
 
     def __str__(self):
         return self.anotacao[:50] + '...'
+    
+class pacientes(models.Model):
+
+    chave = models.AutoField(primary_key=True)
+    nome_completo = models.TextField(max_length=150)
+    idade = models.IntegerField()
+    sexo = models.TextField(max_length=9)
+    curiosidade = models.TextField(max_length=200)
+    data_adicao = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return self.nome_completo[:20]
 

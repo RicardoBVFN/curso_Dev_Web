@@ -7,6 +7,33 @@
 </head>
 <body>
     <h1>hello world</h1>
-    <a href="{% url 'sidePage' %}">teste de link entre páginas</a>
+    <form method="post" hre>
+        {% csrf_token %}
+        <label for="nome_completo">Digite o seu nome completo:</label>
+        <input type="text" placeholder="João, maria, etc" name="nome_completo">
+
+        <br>
+
+        <label for="idade">Digite o sua idade:</label>
+        <input type="number" name="idade">
+
+        <br>
+
+        <label for="sexo">slecione o seu sexo:</label>
+        <select id="sexo" name="sexo">
+            <option value="masculino">Masculino</option>
+            <option value="feminino">Feminino</option>
+            <option value="outro">Outro</option>
+        </select>
+
+        <br>
+
+        <label for="curiosidade">Digite uma curiosidade:</label>
+        <textarea type="text" placeholder="jogo basquete, tenho seis dedos, etc" name="curiosidade"></textarea>
+
+        <br>
+
+        <button type="submit" href="{% url 'teste' %}">enviar</button>
+    </form>
 </body>
 </html>

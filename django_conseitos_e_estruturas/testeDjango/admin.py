@@ -1,8 +1,6 @@
 from django.contrib import admin
-from testeDjango.models import topic
-from testeDjango.models import anotacoes
+from testeDjango.models import pacientes
 
-admin.site.register(topic)
-admin.site.register(anotacoes)
+admin.site.register(pacientes)
 
 # Register your models here.
